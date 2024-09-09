@@ -1,1 +1,1 @@
-# CS330-Assignment1-ascurry
+# Fall2024-Assignment1-ascurry
