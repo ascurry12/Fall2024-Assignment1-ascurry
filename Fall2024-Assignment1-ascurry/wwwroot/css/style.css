@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(#810404, #560202);
+    background-color: #810404;
+    color:rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    text-shadow:2px 2px 1px #0000005b;
+
+
+}
+
+#coverart {
+   border-radius: 8px;
+   border-top-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+   border-color: rgb(255, 255, 255);
+   border-width: 1px;
+   border-style:solid;
+}
+
+#rating-div {
+    display: flex;
+    align-items: center;
+    background-color: #00000027;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+#rating {
+    font-size: 18px;
+    margin: 5px;
+}
+
+#summary {
+    width: 540px;
+    background-color: #00000027;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+#link {
+    width: 80px;
+    margin: 10px;
+}
+
+#trailer {
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#actors {
+    list-style-image: url('../apple.png');
+}
